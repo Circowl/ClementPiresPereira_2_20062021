@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("Font/Raleway-Font.ttf");
+  }
+
+body 
+{
+    font-family: "Raleway", Arial;
+}
