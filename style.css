@@ -7,3 +7,13 @@ body
 {
     font-family: "Raleway", Arial;
 }
+
+.inscription
+{
+    color: #0267ff;
+}
+
+@media screen and (max-width: 600px)
+{
+    
+}
