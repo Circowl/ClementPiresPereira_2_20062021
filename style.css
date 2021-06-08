@@ -8,12 +8,86 @@ body
     font-family: "Raleway", Arial;
 }
 
+a
+{
+    text-decoration: none;
+}
+
+
+
+
+
+
+#headerBox
+{
+    position: relative;
+
+}
+
+#inscription
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
+
+
+/* #headerBox
+{
+
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+
+.logo
+{   
+    margin: 2em;
+    padding: 2em;
+    order: -1;
+}
+
 .inscription
 {
+    margin: 2em;
+    padding: 2em;
     color: #0267ff;
+    font-weight: 650;
+    font-size:large;
+    
+    
+
 }
+
+#MenuBox
+{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px #0267ff solid;
+} */
+
+
+
 
 @media screen and (max-width: 600px)
 {
+    /* .inscription
+    {
+
+        order: -1;
+
+    }
     
+    #MenuBox
+    {
+        width: 375px;
+        height: 85px;
+    } */
 }
