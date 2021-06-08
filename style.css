@@ -5,6 +5,8 @@
 
 body 
 {
+    margin: 0;
+    padding: 0;
     font-family: "Raleway", Arial;
 }
 
@@ -13,11 +15,14 @@ a
     text-decoration: none;
 }
 
+img
+{
+    width: 100%;
+}
 
 
 
-
-
+/* 
 #headerBox
 {
     position: relative;
@@ -27,14 +32,15 @@ a
 #inscription
 {
     position: absolute;
+    
     top: 0px;
     right: 0px;
-}
+} */
 
 
 
 
-/* #headerBox
+ #headerBox
 {
 
     
@@ -45,19 +51,19 @@ a
 
 }
 
-.logo
+#logo
 {   
-    margin: 2em;
-    padding: 2em;
+    margin: 1em;
+    padding: 1em;
     order: -1;
 }
 
-.inscription
+#inscription
 {
-    margin: 2em;
-    padding: 2em;
+    margin: 1em;
+    padding: 1em;
     color: #0267ff;
-    font-weight: 650;
+    font-weight: 1000;
     font-size:large;
     
     
@@ -68,17 +74,36 @@ a
 {
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+} 
+
+
+#hebergementsHeader,#activitesHeader
+{
+    padding: 1em;
+    width: 50%;
+    text-align: center;
+    font-weight: 600;
+    
+}
+
+#hebergementsHeader
+{
+    color: #0267ff;
     border-bottom: 3px #0267ff solid;
-} */
+}
 
-
+#activitesHeader
+{
+    color: black;
+    border-bottom: 3px #F2F2F2 solid;
+}
 
 
 @media screen and (max-width: 600px)
 {
-    /* .inscription
+     #inscription
     {
 
         order: -1;
@@ -87,7 +112,7 @@ a
     
     #MenuBox
     {
-        width: 375px;
+        width: 100%;
         height: 85px;
-    } */
+    } 
 }
