@@ -20,34 +20,12 @@ img
     width: 100%;
 }
 
-
-
-/* 
-#headerBox
-{
-    position: relative;
-
-}
-
-#inscription
-{
-    position: absolute;
-    
-    top: 0px;
-    right: 0px;
-} */
-
-
-
-
  #headerBox
 {
 
-    
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
 
 }
 
@@ -65,14 +43,12 @@ img
     color: #0267ff;
     font-weight: 1000;
     font-size:large;
-    
-    
-
+    display: flex;
+    align-items: center;
 }
 
 #MenuBox
 {
-
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -85,7 +61,6 @@ img
     width: 50%;
     text-align: center;
     font-weight: 600;
-    
 }
 
 #hebergementsHeader
@@ -100,6 +75,27 @@ img
     border-bottom: 3px #F2F2F2 solid;
 }
 
+#slogan
+{
+    font-weight: bold;
+}
+
+#partie1
+{
+    margin: 2em;
+}
+
+#ordre
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#populaires, #hebergements, #activites
+{
+    padding: 2em;
+    
+}
 
 @media screen and (max-width: 600px)
 {
@@ -114,5 +110,17 @@ img
     {
         width: 100%;
         height: 85px;
-    } 
+    }
+
+    #populaires, #hebergements, #activites
+    {
+        width: 100%;
+    }
+
+    #populaires
+    {
+        order: -1;
+        background-color: #F2F2F2;
+    }
+    
 }
