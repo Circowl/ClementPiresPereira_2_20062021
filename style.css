@@ -108,7 +108,6 @@ img
 .imgPopulaire
 {
     width: 40%;
-    object-fit: cover;
 }
 
 .description
@@ -140,7 +139,7 @@ img
     .populaire,.hebergement,.activite
     {
         width: 100%;
-        height: 145px;
+
     }
 
     #populaires
