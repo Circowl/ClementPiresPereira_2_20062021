@@ -15,7 +15,7 @@ a
     text-decoration: none;
 }
 
-a:visited
+#hebergements a:visited, #populaires a:visited
 { 
     color: black; 
 }
@@ -169,6 +169,11 @@ ul
     line-height: 0.3em;
     padding-top: 0;
     margin-left: 0.7em;
+}
+
+.description2 h4
+{
+    margin-top: 1em;
 }
 
 .Blue
