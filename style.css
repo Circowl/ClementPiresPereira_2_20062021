@@ -103,6 +103,37 @@ input, input:focus, input:hover
     border-radius: 0.8em;
 }
 
+.filtres
+{
+    display:flex;
+    justify-content: space-between;
+    padding: 1em;
+    border: 2px #e2e2e2 solid;
+    border-radius: 3em;
+    width: 50%;
+    margin: 0.8em;
+}
+
+#info
+{
+    display:flex;
+    align-items: center;
+}
+
+#info p
+{
+    margin-left: 0.6em;
+}
+
+.fa-info
+{
+    color: #0267ff;
+    font-size:x-small;
+    padding: 0.5em 0.8em 0.5em 0.8em;
+    border: 1px #d3d3d3 solid;
+    border-radius: 100%;
+}
+
 
 #hebergementsHeader,#activitesHeader
 {
