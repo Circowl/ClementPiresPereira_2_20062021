@@ -68,6 +68,41 @@ ul
     align-items: center;
 } 
 
+#barreRecherche
+{
+    display: flex;
+    justify-content: space-between;
+    border: 1px #F2F2F2 solid;
+    border-radius: 1em;
+    width: 385px;
+}
+
+#barreRecherche i
+{
+    padding: 1em;
+    font-size: large;
+}
+
+input, input:focus, input:hover
+{
+    border: none;
+}
+
+.fa-map-marker-alt
+{
+    color:black;
+    background-color: #F2F2F2;
+    border-radius: 0.8em 0 0 0.8em;
+
+}
+
+.fa-search
+{
+    color: white;
+    background-color: #0267ff;
+    border-radius: 0.8em;
+}
+
 
 #hebergementsHeader,#activitesHeader
 {
