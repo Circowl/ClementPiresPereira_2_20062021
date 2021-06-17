@@ -15,7 +15,7 @@ a
     text-decoration: none;
 }
 
-#hebergements a:visited, #populaires a:visited
+#hebergements a:visited, #populaires a:visited, #activites a:visited
 { 
     color: black; 
 }
@@ -139,6 +139,20 @@ ul
 
 }
 
+.activite
+{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 0.4em;
+    border-radius: 1.6em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    box-shadow: 0 0 0.7em #00000040;
+    height: 230px;
+
+}
+
 #iconPopulaire
 {
     float:right;
@@ -157,6 +171,13 @@ ul
     object-fit: cover;
 }
 
+.imgActivite
+{
+    height: 72%;
+    border-radius: 1.35em 1.35em 0 0;
+    object-fit: cover;
+}
+
 .description
 {
     width: 40%;
@@ -169,6 +190,14 @@ ul
     line-height: 0.3em;
     padding-top: 0;
     margin-left: 0.7em;
+}
+
+#activites h4
+{
+    height: 40%;
+    line-height: 0.3em;
+    padding-top: 0.8em;
+    margin-left: 0.8em;
 }
 
 .description2 h4
