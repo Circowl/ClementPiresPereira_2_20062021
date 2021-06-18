@@ -86,6 +86,7 @@ ul
 input, input:focus, input:hover
 {
     border: none;
+    outline-width: 0;
 }
 
 .fa-map-marker-alt
@@ -105,13 +106,22 @@ input, input:focus, input:hover
 
 .filtres
 {
-    display:flex;
+    display:inline-block;
     justify-content: space-between;
     padding: 1em;
     border: 2px #e2e2e2 solid;
     border-radius: 3em;
-    width: 50%;
     margin: 0.8em;
+}
+
+#economique, #familial, #romantique, #animaux
+{
+    display: none;
+}
+
+#economique:checked + label>i
+{
+    color:blue;
 }
 
 #info
