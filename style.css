@@ -108,10 +108,10 @@ input, input:focus, input:hover
 {
     display:inline-block;
     justify-content: space-between;
-    padding: 1em;
+    /* padding: 1em; */
     border: 2px #e2e2e2 solid;
     border-radius: 3em;
-    margin: 0.8em;
+    margin: 0.6em;
 }
 
 #economique, #familial, #romantique, #animaux
@@ -119,9 +119,30 @@ input, input:focus, input:hover
     display: none;
 }
 
-#economique:checked + label>i
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
+{
+    color: #0267ff;
+    padding: 1.2em;
+    background-color: #DEEBFF;
+    border-radius: 100%;
+}
+
+
+#economique:checked + label>i, #familial:checked + label>i, #romantique:checked + label>i, #animaux:checked + label>i
 {
     color:blue;
+}
+
+.filtres:hover
+{
+    background-color: cadetblue;
+}
+
+.filtreText
+{
+    margin-left: 1em;
+    margin-right: 1em;
+    font-weight: 1000;
 }
 
 #info
