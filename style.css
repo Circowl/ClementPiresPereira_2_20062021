@@ -66,6 +66,26 @@ ul {
     font-size: large;
 }
 
+#recherche {
+    padding-left: 2em;
+}
+
+#rechercher1 {
+    display: none;
+}
+
+#rechercher2 {
+    display: flex;
+    color: white;
+    background-color: #0267ff;
+    border-radius: 0 0.8em 0.8em 0;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    align-items: center;
+    font-weight: bold;
+}
+
+
 input,
 input:focus,
 input:hover {
@@ -79,11 +99,6 @@ input:hover {
     border-radius: 0.8em 0 0 0.8em;
 }
 
-.fa-search {
-    color: white;
-    background-color: #0267ff;
-    border-radius: 0.8em;
-}
 
 .filtres {
     display: inline-block;
@@ -110,6 +125,8 @@ input:hover {
     background-color: #deebff;
     border-radius: 100%;
     width: 17px;
+    text-align: center;
+    margin-left: -1px;
 }
 
 #economique:checked + label > i,

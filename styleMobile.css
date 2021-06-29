@@ -84,7 +84,17 @@ input:hover {
     color: white;
     background-color: #0267ff;
     border-radius: 0.8em;
+    
 }
+
+#rechercher1 {
+    display: flex;
+}
+
+#rechercher2 {
+    display: none;
+}
+
 
 .filtres {
     display: inline-block;
@@ -111,6 +121,7 @@ input:hover {
     background-color: #deebff;
     border-radius: 100%;
     width: 17px;
+    margin-left: -1px;
 }
 
 #economique:checked + label > i,
