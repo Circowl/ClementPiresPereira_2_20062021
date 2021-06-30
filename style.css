@@ -15,9 +15,6 @@ a {
     color: black;
 }
 
-img {
-    width: 100%;
-}
 
 ul {
     list-style: none;
@@ -28,7 +25,7 @@ ul {
 #headerBox {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    
 }
 
 #logo {
@@ -41,7 +38,7 @@ ul {
     margin: 1em;
     padding: 1em;
     color: #0267ff;
-    font-weight: 100;
+    font-weight: 600;
     font-size: large;
     display: flex;
     align-items: center;
@@ -49,7 +46,7 @@ ul {
 
 #MenuBox {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -166,19 +163,18 @@ input:hover {
 #hebergementsHeader,
 #activitesHeader {
     padding: 1em;
-    width: 50%;
-    text-align: center;
+    text-align: right;
     font-weight: 600;
 }
 
 #hebergementsHeader {
     color: #0267ff;
-    border-bottom: 3px #0267ff solid;
+    border-top: 3px #0267ff solid;
 }
 
 #activitesHeader {
     color: black;
-    border-bottom: 3px #f2f2f2 solid;
+    border-top: 3px #f2f2f2 solid;
 }
 
 #slogan {
@@ -259,7 +255,7 @@ input:hover {
 
 .description {
     width: 40%;
-    margin-left: 2em;
+    margin-left: 1em;
 }
 
 .description2 {
@@ -307,7 +303,7 @@ footer {
 }
 
 #inscription {
-    order: -1;
+    order: 0;
 }
 
 #MenuBox {
@@ -328,6 +324,18 @@ footer {
 }
 
 #populaires {
-    order: -1;
     background-color: #f2f2f2;
+    border-radius: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
 }
+
+#hebergements {
+    background-color: #f2f2f2;
+    border-radius: 1.2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+

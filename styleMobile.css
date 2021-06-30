@@ -16,9 +16,7 @@ a {
     color: black;
 }
 
-img {
-    width: 100%;
-}
+
 
 ul {
     list-style: none;
@@ -42,7 +40,7 @@ ul {
     margin: 1em;
     padding: 1em;
     color: #0267ff;
-    font-weight: 100;
+    font-weight: 600;
     font-size: large;
     display: flex;
     align-items: center;
@@ -169,11 +167,13 @@ input:hover {
 #hebergementsHeader {
     color: #0267ff;
     border-bottom: 3px #0267ff solid;
+    border-top: 0px white;
 }
 
 #activitesHeader {
     color: black;
     border-bottom: 3px #f2f2f2 solid;
+    border-top: 0px white;
 }
 
 #slogan {
@@ -322,7 +322,17 @@ footer {
     width: 100%;
 }
 
+
+
 #populaires {
     order: -1;
     background-color: #f2f2f2;
+    border-radius: 0;
+    margin: 0;
+}
+
+#hebergements {
+    background-color: white;
+    border-radius: 0;
+    margin: 0;
 }
