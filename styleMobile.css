@@ -133,11 +133,7 @@ input:hover {
     background-color: #0267ff;
 }
 
-.filtreText {
-    margin-left: 1em;
-    margin-right: 1em;
-    font-weight: 100;
-}
+
 
 #info {
     display: flex;
@@ -174,6 +170,8 @@ input:hover {
     color: black;
     border-bottom: 3px #f2f2f2 solid;
     border-top: 0px white;
+    margin-top: 0px;
+    margin-left: 0px;
 }
 
 #slogan {
@@ -299,6 +297,7 @@ li {
 footer {
     padding: 2em;
     background-color: #f2f2f2;
+    flex-direction: column;
 }
 
 #inscription {

@@ -35,13 +35,13 @@ ul {
 }
 
 #inscription {
-    margin: 1em;
-    padding: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
     color: #0267ff;
     font-weight: 600;
     font-size: large;
     display: flex;
-    align-items: center;
+    margin-top: 34px;
 }
 
 #MenuBox {
@@ -65,6 +65,7 @@ ul {
 
 #recherche {
     padding-left: 2em;
+    font-weight: 600;
 }
 
 #rechercher1 {
@@ -140,7 +141,7 @@ input:hover {
 .filtreText {
     margin-left: 1em;
     margin-right: 1em;
-    font-weight: 100;
+    font-weight: 600;
 }
 
 #info {
@@ -174,7 +175,9 @@ input:hover {
 
 #activitesHeader {
     color: black;
-    border-top: 3px #f2f2f2 solid;
+    font-weight: 400;
+    margin-top: 3px;
+    margin-left: 30px;
 }
 
 #slogan {
@@ -202,10 +205,15 @@ input:hover {
     background-color: white;
     padding: 0.4em;
     border-radius: 2.35em;
-    margin-top: 1em;
-    margin-bottom: 1em;
     box-shadow: 0 0 0.7em #00000040;
-    height: 185px;
+    height: 160px;
+    width: 350px;
+}
+
+#populaires > a {
+    display: inline-block;
+    margin: 1em;
+    align-items: center;
 }
 
 .hebergement {
@@ -214,10 +222,16 @@ input:hover {
     background-color: white;
     padding: 0.4em;
     border-radius: 1.6em;
-    margin-top: 1em;
     margin-bottom: 1em;
     box-shadow: 0 0 0.7em #00000040;
-    height: 257px;
+    height: 200px;
+    width: 250px;
+}
+
+#hebergements > a {
+    display: inline-block;
+    margin: 1em;
+    align-items: center;
 }
 
 .activite {
@@ -229,7 +243,8 @@ input:hover {
     margin-top: 1em;
     margin-bottom: 1em;
     box-shadow: 0 0 0.7em #00000040;
-    height: 230px;
+    height: 160px;
+    width: 350px;
 }
 
 #iconPopulaire {
@@ -300,6 +315,8 @@ li {
 footer {
     padding: 2em;
     background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-around;
 }
 
 #inscription {
@@ -311,22 +328,23 @@ footer {
     height: 85px;
 }
 
-#populaires,
-#hebergements,
+#hebergements {
+    width: 60%;
+}
+
+#populaires {
+    width: 25%;
+}
+
 #activites {
     width: 100%;
 }
 
-.populaire,
-.hebergement,
-.activite {
-    width: 100%;
-}
+
 
 #populaires {
     background-color: #f2f2f2;
     border-radius: 2em;
-    margin-left: 2em;
     margin-right: 2em;
     margin-bottom: 2em;
 }
@@ -338,4 +356,6 @@ footer {
     margin-right: 2em;
     margin-bottom: 2em;
 }
+
+
 
