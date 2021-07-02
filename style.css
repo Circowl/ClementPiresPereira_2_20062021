@@ -228,6 +228,18 @@ input:hover {
     display: inline-block;
     margin: 1em;
     align-items: center;
+    
+}
+
+@media all and (min-width: 1514px)
+{
+    #populaires > a {
+        width: 100%;
+    }
+
+    #hebergements > a {
+        width: 28%;
+    }
 }
 
 .hebergement {
@@ -246,6 +258,7 @@ input:hover {
     display: inline-block;
     margin: 1em;
     align-items: center;
+    
 }
 
 .activite {
