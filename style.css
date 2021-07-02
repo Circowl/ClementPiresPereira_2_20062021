@@ -231,8 +231,7 @@ input:hover {
     
 }
 
-@media all and (min-width: 1514px)
-{
+@media all and (min-width: 1514px) {
     #populaires > a {
         width: 100%;
     }
@@ -270,8 +269,35 @@ input:hover {
     margin-top: 1em;
     margin-bottom: 1em;
     box-shadow: 0 0 0.7em #00000040;
-    height: 160px;
-    width: 350px;
+    height: 100%;
+    width: 300px;
+}
+
+@media all and (min-width: 1514px) {
+    #boxActivite {
+        display:flex;
+        height: 500px;
+        justify-content: space-between;
+        padding-bottom: 2em;
+        
+    }
+
+    #element1 {
+        height: 58%;
+    }
+
+    #element2 {
+        height: 38%;
+    }
+
+    #element3 {
+        height: 46%;
+    }
+
+    #element4 {
+        height: 50%;
+    }
+
 }
 
 #iconPopulaire {
