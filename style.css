@@ -107,6 +107,14 @@ input:hover {
     margin: 0.6em;
 }
 
+#filtre {
+    display: flex;
+}
+
+#filtre h2 {
+    margin-right: 1em;
+}
+
 #economique,
 #familial,
 #romantique,
@@ -177,7 +185,13 @@ input:hover {
     color: black;
     font-weight: 400;
     margin-top: 3px;
-    margin-left: 30px;
+    padding-left: 30px;
+}
+
+#activitesHeader:hover {
+    color: #0267ff;
+    border-top: 3px #0267ff solid;
+    margin-top: 0px;
 }
 
 #slogan {
@@ -316,7 +330,8 @@ footer {
     padding: 2em;
     background-color: #f2f2f2;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-right: 350px;
 }
 
 #inscription {

@@ -103,6 +103,10 @@ input:hover {
     margin: 0.6em;
 }
 
+#filtre {
+    display: block;
+}
+
 #economique,
 #familial,
 #romantique,
@@ -174,6 +178,12 @@ input:hover {
     margin-left: 0px;
 }
 
+#activitesHeader:hover {
+    color: #0267ff;
+    border-bottom: 3px #0267ff solid;
+    border-top: 0px;
+}
+
 #slogan {
     font-weight: bold;
 }
@@ -205,6 +215,11 @@ input:hover {
     height: 185px;
 }
 
+#populaires > a {
+    display: flex;
+    margin-right: 0;
+}
+
 .hebergement {
     display: flex;
     flex-direction: column;
@@ -217,6 +232,11 @@ input:hover {
     height: 257px;
 }
 
+#hebergements > a {
+    display: flex;
+    margin-right: 0;
+}
+
 .activite {
     display: flex;
     flex-direction: column;
@@ -227,6 +247,11 @@ input:hover {
     margin-bottom: 1em;
     box-shadow: 0 0 0.7em #00000040;
     height: 230px;
+}
+
+#activites > a {
+    display: flex;
+    margin-right: 0;
 }
 
 #iconPopulaire {
@@ -298,6 +323,7 @@ footer {
     padding: 2em;
     background-color: #f2f2f2;
     flex-direction: column;
+    padding-right: 0px;
 }
 
 #inscription {
