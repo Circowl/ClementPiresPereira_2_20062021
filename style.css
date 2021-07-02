@@ -270,8 +270,11 @@ input:hover {
     margin-bottom: 1em;
     box-shadow: 0 0 0.7em #00000040;
     height: 100%;
-    width: 300px;
+    width: 100%;
+    margin-left:auto;
+    margin-right:auto;
 }
+
 
 @media all and (min-width: 1514px) {
     #boxActivite {
@@ -296,6 +299,10 @@ input:hover {
 
     #element4 {
         height: 50%;
+    }
+
+    .colomne {
+        width: 22%;
     }
 
 }
