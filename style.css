@@ -7,6 +7,7 @@ body {
 
 a {
     text-decoration: none;
+    color:black;
 }
 
 #hebergements a:visited,
@@ -183,7 +184,6 @@ input:hover {
 
 #activitesHeader {
     color: black;
-    font-weight: 400;
     margin-top: 3px;
     padding-left: 30px;
 }
@@ -225,18 +225,31 @@ input:hover {
 
 #populaires > a {
     display: inline-block;
-    margin: 1em;
+    margin-bottom: 1em;
     align-items: center;
     
 }
 
 @media all and (min-width: 1514px) {
     #populaires > a {
-        width: 100%;
+        width: 88%;
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-bottom: 2em;
+
+    }
+
+    #populaires h2
+    {
+        margin-left: 6%;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-weight: 900;
     }
 
     #hebergements > a {
-        width: 28%;
+        width: 29%;
+        margin-left: 3%;
     }
 }
 
@@ -253,8 +266,9 @@ input:hover {
 
 #hebergements > a {
     display: inline-block;
-    margin: 1em;
     align-items: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
     
 }
 
@@ -330,6 +344,7 @@ input:hover {
 
 #iconPopulaire {
     float: right;
+    margin-right: 6%;
 }
 .imgPopulaire {
     width: 40%;
@@ -426,6 +441,8 @@ footer {
     width: 100%;
     display: flex;
     flex-direction: column;
+    margin-bottom: 3em;
+    margin-top: 1em;
 }
 
 
@@ -438,7 +455,7 @@ footer {
 
 #hebergements {
     background-color: #f2f2f2;
-    border-radius: 1.2em;
+    border-radius: 2em;
     margin-left: 2%;
     margin-right: 2%;
     margin-bottom: 2em;
