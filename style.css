@@ -208,9 +208,12 @@ input:hover {
 }
 
 #populaires,
-#hebergements,
-#activites {
+#hebergements {
     padding: 2em;
+}
+
+#activites h2 {
+    margin-left: 2em;
 }
 
 .populaire {
@@ -280,8 +283,8 @@ input:hover {
         display:flex;
         height: 500px;
         justify-content: space-between;
-        padding-bottom: 2em;
-        padding-right: 4em;
+        margin-left: 2em;
+        margin-bottom: 2em;
         
     }
 
@@ -393,12 +396,17 @@ li {
     color: black;
 }
 
+.partieFooter {
+    width: 33%;
+    margin-left: 0;
+}
+
 footer {
     padding: 2em;
     background-color: #f2f2f2;
     display: flex;
     justify-content: space-between;
-    padding-right: 350px;
+    
 }
 
 #inscription {
