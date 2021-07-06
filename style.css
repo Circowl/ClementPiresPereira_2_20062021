@@ -149,7 +149,7 @@ input:hover {
 .filtreText {
     margin-left: 1em;
     margin-right: 1em;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 #info {
@@ -264,7 +264,6 @@ input:hover {
     display: flex;
     flex-direction: column;
     background-color: white;
-    padding: 0.4em;
     border-radius: 1.6em;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -282,6 +281,7 @@ input:hover {
         height: 500px;
         justify-content: space-between;
         padding-bottom: 2em;
+        padding-right: 4em;
         
     }
 
@@ -289,21 +289,43 @@ input:hover {
         height: 58%;
     }
 
+    #element1 img {
+        height: 240px;
+    }
+
     #element2 {
         height: 38%;
+    }
+
+    #element2 img {
+        height: 140px;
     }
 
     #element3 {
         height: 46%;
     }
 
+    #element3 img {
+        height: 180px;
+    }
+
     #element4 {
         height: 50%;
+    }
+
+    #element4 img {
+        height: 200px;
     }
 
     .colomne {
         width: 22%;
     }
+
+    #colomne1 img, #colomne2 img {
+        height: 450px;
+    }
+
+
 
 }
 
@@ -341,9 +363,8 @@ input:hover {
 }
 
 #activites h4 {
-    height: 40%;
+
     line-height: 0.3em;
-    padding-top: 0.8em;
     margin-left: 0.8em;
 }
 
@@ -399,6 +420,8 @@ footer {
 
 #activites {
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 
