@@ -239,10 +239,9 @@ input:hover {
 
     }
 
-    #populaires h2
-    {
+    #populaires h2 {
         margin-left: 6%;
-        margin-top: 1em;
+        margin-top: 2em;
         margin-bottom: 1em;
         font-weight: 900;
     }
@@ -250,6 +249,19 @@ input:hover {
     #hebergements > a {
         width: 29%;
         margin-left: 3%;
+    }
+
+    #hebergements h2 {
+        margin-left: 3%;
+        margin-top: 2em;
+        margin-bottom: 1em;
+        font-weight: 900;
+    }
+
+    #hebergements h3 {
+        margin-left: 3%;
+        font-size: large;
+        font-weight: 900;
     }
 }
 
