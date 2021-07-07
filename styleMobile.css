@@ -264,7 +264,8 @@ input:hover {
 }
 
 .imgHebergement {
-    height: 60%;
+    width: 100%;
+    height: 100%;
     border-radius: 1.35em 1.35em 0 0;
     object-fit: cover;
 }
