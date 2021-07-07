@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800");
 body {
-    margin: 0;
+    max-width: 1920px;
+    margin: auto;
     padding: 0;
     font-family: "Raleway", Arial;
 }
@@ -263,6 +264,10 @@ input:hover {
         font-size: large;
         font-weight: 900;
     }
+
+    #populaires i {
+        margin-bottom: 9px;
+    }
 }
 
 .hebergement {
@@ -350,8 +355,6 @@ input:hover {
         height: 450px;
     }
 
-
-
 }
 
 #iconPopulaire {
@@ -379,6 +382,13 @@ input:hover {
 .description {
     width: 40%;
     margin-left: 1em;
+    position: relative;
+}
+
+.conteneurEtoiles {
+    position:absolute;
+    bottom: 5px;
+
 }
 
 .description2 {

@@ -280,6 +280,12 @@ input:hover {
     margin-left: 2em;
 }
 
+.conteneurEtoiles {
+    position:absolute;
+    bottom: 10px;
+
+}
+
 .description2 {
     height: 40%;
     line-height: 0.3em;
