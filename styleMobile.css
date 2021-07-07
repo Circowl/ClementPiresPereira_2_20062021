@@ -272,9 +272,14 @@ input:hover {
 }
 
 .imgActivite {
-    height: 72%;
+    height: 100%;
+    width: 100%;
     border-radius: 1.35em 1.35em 0 0;
     object-fit: cover;
+}
+
+#activites picture {
+    height: 80%;
 }
 
 .description {
@@ -298,8 +303,7 @@ input:hover {
 #activites h4 {
     height: 40%;
     line-height: 0.3em;
-    padding-top: 0.8em;
-    margin-left: 0.8em;
+    padding-top: 0.4em;
 }
 
 .description2 h4 {

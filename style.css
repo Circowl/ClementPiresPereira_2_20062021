@@ -321,6 +321,7 @@ input:hover {
 
     #element1 img {
         height: 240px;
+        width: 100%;
     }
 
     #element2 {
@@ -329,6 +330,7 @@ input:hover {
 
     #element2 img {
         height: 140px;
+        width: 100%;
     }
 
     #element3 {
@@ -337,6 +339,7 @@ input:hover {
 
     #element3 img {
         height: 180px;
+        width: 100%;
     }
 
     #element4 {
@@ -345,6 +348,7 @@ input:hover {
 
     #element4 img {
         height: 200px;
+        width: 100%;
     }
 
     .colomne {
@@ -353,6 +357,7 @@ input:hover {
 
     #colomne1 img, #colomne2 img {
         height: 450px;
+        width: 100%;
     }
 
 }
@@ -413,7 +418,7 @@ input:hover {
 #activites h4 {
 
     line-height: 0.3em;
-    margin-left: 0.8em;
+    margin-left: 1.2em;
 }
 
 .description2 h4 {
