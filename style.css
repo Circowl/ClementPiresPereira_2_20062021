@@ -103,7 +103,6 @@ input:hover {
 .filtres {
     display: inline-block;
     justify-content: space-between;
-    /* padding: 1em; */
     border: 2px #e2e2e2 solid;
     border-radius: 3em;
     margin: 0.6em;
